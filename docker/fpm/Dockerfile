@@ -5,4 +5,4 @@ RUN apt-get update && apt-get install -y \
         libjpeg62-turbo-dev \
         libmcrypt-dev \
         libpng12-dev \
-    && docker-php-ext-install -j5 gd mbstring mysqli pdo pdo_mysql shmop
+    && docker-php-ext-install -j5 gd mbstring mysqli pdo pdo_mysql shmop bcmath
