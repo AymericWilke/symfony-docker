@@ -6,4 +6,4 @@ RUN apt-get update && apt-get install -y \
         libmcrypt-dev \
         libpng12-dev \
         libicu-dev \
-    && docker-php-ext-install -j5 gd mbstring mysqli pdo pdo_mysql shmop bcmath intl
+    && docker-php-ext-install -j5 gd mbstring mysqli pdo pdo_mysql shmop bcmath intl zip
